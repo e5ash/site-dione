@@ -1,0 +1,41 @@
+.icon-arrow-left {
+  background-image: url(../../img/sprite.png);
+  background-position: -92px -97px;
+  width: 18px;
+  height: 28px; }
+
+.icon-arrow-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -110px -97px;
+  width: 18px;
+  height: 28px; }
+
+.icon-checked {
+  background-image: url(../../img/sprite.png);
+  background-position: -97px -77px;
+  width: 17px;
+  height: 17px; }
+
+.icon-delivery {
+  background-image: url(../../img/sprite.png);
+  background-position: -97px 0px;
+  width: 83px;
+  height: 77px; }
+
+.icon-facebook {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -97px;
+  width: 46px;
+  height: 46px; }
+
+.icon-instagram {
+  background-image: url(../../img/sprite.png);
+  background-position: -46px -97px;
+  width: 46px;
+  height: 46px; }
+
+.icon-play {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 97px;
+  height: 97px; }

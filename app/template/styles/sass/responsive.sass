@@ -1,0 +1,271 @@
+@media screen and (max-width: 850px)
+	.do
+		background-image: none
+@media screen and (max-width: 775px)
+	.button
+		line-height: 44px
+	.container
+		width: 100%
+	.panel
+		padding-top: 10px
+		padding-bottom: 10px
+		&:after
+			display: none
+		&__logo
+			img
+				margin-left: auto
+				margin-right: auto
+		&__name
+			position: absolute
+			top: 42px
+			background: rgba(255,255,255,.85)
+			width: 100%
+			left: 0
+			text-align: center
+			padding: 3px 15px
+			strong
+				display: none
+			span
+				display: block
+
+		&__logo, &__name
+			float: none
+	
+	.header
+		padding-top: 0
+		padding-bottom: 0
+		background: none
+		&__mobile-img
+			display: block
+
+		&__content
+			float: none
+			width: 100%
+			position: relative
+			padding-top: 210px
+		&__list
+			padding: 0px 15px 15px
+			li
+				br
+					display: none
+		.container
+			padding-left: 0
+			padding-right: 0
+	.video
+		float: none
+		width: 100%
+		background-size: cover
+		margin-bottom: -5px
+		iframe
+			width: 100% !important
+		&:hover
+			transform: none
+		a
+			width: 100%
+		&__title
+			max-width: 395px
+			margin-left: auto
+			margin-right: auto
+	.price
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		text-align: center
+		padding-top: 10px
+		&:after
+			content: ''
+			background: url('../../img/bg/leaves.png') center
+			width: 100%
+			height: 51px
+			left: 0
+			top: 0
+			display: block
+			margin-top: 10px
+		&__name, &__list, &__delivery
+			display: block
+			margin-left: auto
+			margin-right: auto
+		&__name
+			color: #41994b
+			font-size: 18px
+			span
+				display: none
+			strong
+				display: block
+		&__count
+			display: inline-block
+			vertical-align: middle
+			&_old
+				font-size: 16px
+				margin-right: 20px
+				
+			&_new
+				span
+					font-weight: 700
+		&__delivery
+			margin-top: 15px
+			display: none
+		&__button
+			display: block !important
+			margin-left: 35px
+			margin-right: 35px
+			width: calc(100% - 70px) !important
+			
+			margin-top: 10px
+			margin-bottom: 10px
+
+	.plashka
+		&__wrap
+			float: none !important
+			padding-left: 0 !important
+			text-align: center
+			&:before
+				display: none
+	.input, .button
+		display: block
+		margin-bottom: 7px
+		width: 100%
+	.button
+		margin-bottom: 0
+
+	.reviews
+		padding-bottom: 15px
+		.container
+			padding-left: 0
+			padding-right: 0
+		&__title
+			padding-top: 15px
+			margin-bottom: 20px
+		&__list
+			padding-left: 0
+			padding-right: 0
+			max-width: 500px
+			margin-left: auto
+			margin-right: auto
+			.slick-arrow
+				transform: scale(.8)
+				top: 45%
+			.slick-prev
+				left: -4px
+			.slick-next
+				right: -4px
+		&__item
+			padding: 0
+
+	.result
+		padding-top: 15px
+		.container
+			padding-left: 5px
+			padding-right: 5px
+		&__line
+			float: left
+			width: 50%
+			padding-left: 10px
+			padding-right: 10px
+		&__title
+			width: 100%
+			margin-right: 0
+			padding-top: 0
+			text-align: center
+			margin-bottom: 10px
+			span, br
+				display: none
+		&__image
+			display: block
+			margin-right: 0
+			margin-bottom: 10px
+			&:last-of-type
+				margin-bottom: 0
+			img
+				display: block
+				margin-left: auto
+				margin-right: auto
+		&__title, &__images
+			float: none
+	.do
+		padding-top: 20px
+		padding-bottom: 20px
+		// padding-bottom: 65px
+		&__desc
+			// margin-bottom: 45px
+		&__item
+			float: none
+			width: 100%
+			height: auto
+			margin-left: auto
+			margin-right: auto
+			&:nth-of-type(2)
+				.do
+					&__content
+						float: right
+						&:before
+							right: auto
+							left: -10px
+							transform: rotate(180deg)
+		&__image
+			img
+				height: auto
+				width: 100%
+		&__content
+			&:before
+				display: none
+				// border-width: 50% 0 50% 10%
+		&__subtitle
+			font-size: 110%
+		&__text
+			font-size: 100%
+			line-height: normal
+	.price-block
+		.container
+			padding-bottom: 90px
+			&:after
+				right: 50%
+				margin-right: -104px
+		&__images
+			display: block
+			margin-bottom: 15px
+			img
+				display: inline-block
+				vertical-align: middle
+				&:nth-of-type(1)
+					margin-right: 20px
+		&__old
+			margin-bottom: 0
+		&__title
+			display: none
+		&__new
+			span
+				display: inline-block
+				margin-right: 10px
+			
+	.delivery
+		&__images
+			display: none
+		&__content
+			width: 100%
+			float: none
+
+	.footer
+		.container
+			padding-top: 2px
+			padding-bottom: 15px
+			background-position: 0 0, right 0
+
+@media screen and (max-width: 450px)
+	.do
+		&__subtitle
+			font-size: 16px
+		&__text
+			font-size: 14px
+@media screen and (max-width: 400px)
+	.do
+		&__subtitle
+			font-size: 12px
+		&__text
+			font-size: 10px
+@media screen and (max-width: 350px)
+	.price__name strong
+		font-size: 16px
+
+
